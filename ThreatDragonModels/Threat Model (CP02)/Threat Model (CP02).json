@@ -301,6 +301,263 @@
               "id": "f4825a97-091e-4ecd-a8a0-8848c6ad7042",
               "z": 10,
               "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 620,
+                "y": 490
+              },
+              "angle": 0,
+              "id": "0d5404a1-2a26-46e7-9e41-ca565b6f1fde",
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Catalog Data Access"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 610,
+                "y": 300
+              },
+              "target": {
+                "x": 690,
+                "y": 490
+              },
+              "vertices": [
+                {
+                  "x": 680,
+                  "y": 360
+                }
+              ],
+              "id": "6dafe7bc-09b5-46fd-8d95-9e61204dde2d",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5151677886781316,
+                    "offset": -3.7986388744932618
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Queries",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1030,
+                "y": 490
+              },
+              "angle": 0,
+              "id": "f1ce4e08-3f24-4b8a-8231-6364933adeff",
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 730,
+                "y": 490
+              },
+              "target": {
+                "x": 610,
+                "y": 280
+              },
+              "vertices": [
+                {
+                  "x": 720,
+                  "y": 320
+                }
+              ],
+              "id": "29985434-3eaa-4966-a6fd-0af3c1de4a78",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5700329524180796,
+                    "offset": 8.84460238885169
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Data from Database",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 780,
+                "y": 510
+              },
+              "target": {
+                "x": 1030,
+                "y": 510
+              },
+              "vertices": [],
+              "id": "28ae433a-daa4-4c9f-872f-d15adcca532b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Request from\ndatabase",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 1030,
+                "y": 550
+              },
+              "target": {
+                "x": 780,
+                "y": 550
+              },
+              "vertices": [],
+              "id": "a97e7593-018d-41c8-a281-9aaee53f3fbd",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.681551456451416,
+                    "offset": -10
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Data from database",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 640,
+                "y": 440
+              },
+              "target": {
+                "x": 790,
+                "y": 450
+              },
+              "vertices": [
+                {
+                  "x": 710,
+                  "y": 420
+                }
+              ],
+              "id": "0ff4819e-4256-4838-b10c-18ce2d83e127",
+              "z": 17,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 990,
+                "y": 490
+              },
+              "target": {
+                "x": 990,
+                "y": 570
+              },
+              "vertices": [
+                {
+                  "x": 980,
+                  "y": 530
+                }
+              ],
+              "id": "04b5d71b-18f3-413b-8032-3e4ad0b78db8",
+              "z": 18,
+              "attrs": {}
             }
           ]
         },
