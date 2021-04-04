@@ -521,8 +521,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 640,
-                "y": 440
+                "x": 600,
+                "y": 450
               },
               "target": {
                 "x": 790,
@@ -557,6 +557,133 @@
               ],
               "id": "04b5d71b-18f3-413b-8032-3e4ad0b78db8",
               "z": 18,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 590,
+                "y": 330
+              },
+              "target": {
+                "x": 660,
+                "y": 490
+              },
+              "vertices": [
+                {
+                  "x": 630,
+                  "y": 390
+                }
+              ],
+              "id": "55f14ff4-61b6-45cb-9cd4-86ab88613745",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4813117199636517,
+                    "offset": -5.524475388540942
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "String Search",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 110,
+                "y": 490
+              },
+              "angle": 0,
+              "id": "a25e6fc6-7b7b-45d2-afc0-723538239dfa",
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Admin"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 270,
+                "y": 530
+              },
+              "target": {
+                "x": 620,
+                "y": 530
+              },
+              "vertices": [],
+              "id": "66faa805-f230-464d-8baf-9518144d1305",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Checks if User is\nRegistered",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 560,
+                "y": 490
+              },
+              "target": {
+                "x": 580,
+                "y": 560
+              },
+              "vertices": [
+                {
+                  "x": 560,
+                  "y": 530
+                }
+              ],
+              "id": "69c64fc1-2978-499a-bbab-12dcd25caedc",
+              "z": 22,
               "attrs": {}
             }
           ]
