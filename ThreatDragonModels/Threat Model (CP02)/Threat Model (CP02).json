@@ -1,9 +1,14 @@
 {
   "summary": {
-    "title": "Threat Model (CP02)"
+    "title": "Threat Model (CP02)",
+    "owner": "William Reyes"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Tristan Manalad"
+      }
+    ],
     "diagrams": [
       {
         "title": "Data Flow Diagram",
