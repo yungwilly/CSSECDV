@@ -27,7 +27,7 @@
                 "y": 50
               },
               "angle": 0,
-              "id": "4ff8ec61-5291-4904-a016-a66794c9f03d",
+              "id": "d8477924-ab60-4abf-ba00-55cc7a42374f",
               "z": 1,
               "hasOpenThreats": false,
               "attrs": {
@@ -35,7 +35,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Anonymous User"
+                  "text": "Browser"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -49,11 +49,11 @@
                 "height": 100
               },
               "position": {
-                "x": 359,
-                "y": 222
+                "x": 256,
+                "y": 223
               },
               "angle": 0,
-              "id": "4729155c-9a44-4575-9c31-79cbe965f997",
+              "id": "117a28e3-547a-429d-8f01-47b091b8840a",
               "z": 2,
               "hasOpenThreats": false,
               "attrs": {
@@ -72,35 +72,28 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "4ff8ec61-5291-4904-a016-a66794c9f03d"
+                "id": "d8477924-ab60-4abf-ba00-55cc7a42374f"
               },
               "target": {
-                "id": "4729155c-9a44-4575-9c31-79cbe965f997"
+                "x": 300,
+                "y": 220
               },
               "vertices": [
                 {
-                  "x": 271,
+                  "x": 275,
                   "y": 160
-                },
-                {
-                  "x": 317,
-                  "y": 182
-                },
-                {
-                  "x": 359,
-                  "y": 207
                 }
               ],
-              "id": "5b4d61a7-fc64-4287-a591-b2cf8de995af",
+              "id": "4b15df54-f1e4-45ca-85dc-e9ee2bb1a6cb",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.5410195366612703,
-                    "offset": -0.8873415081261752
+                    "distance": 0.5802381453513262,
+                    "offset": -4.309909727394352
                   },
                   "attrs": {
                     "text": {
-                      "text": "browses product\ncatalog",
+                      "text": "Web Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -119,93 +112,36 @@
               }
             },
             {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 602,
-                "y": 220
-              },
-              "angle": 0,
-              "id": "c9752e29-a8f6-4a12-8249-1c1be4a51dbf",
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "catalog\nbusiness\ncomponent"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 838,
-                "y": 217
-              },
-              "angle": 0,
-              "id": "9f128927-d207-4cb2-899e-db8b19a3d699",
-              "z": 5,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "catalog data\naccess\ncomponent"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "4729155c-9a44-4575-9c31-79cbe965f997"
+                "x": 260,
+                "y": 290
               },
               "target": {
-                "id": "c9752e29-a8f6-4a12-8249-1c1be4a51dbf"
+                "x": 120,
+                "y": 130
               },
               "vertices": [
                 {
-                  "x": 547,
-                  "y": 266
-                },
-                {
-                  "x": 582,
-                  "y": 266
+                  "x": 140,
+                  "y": 240
                 }
               ],
-              "id": "7ffc27f4-21bb-4d5c-97ab-51f07f815a5e",
+              "id": "a34eaa6e-dbbc-47e6-abe0-0702ad01a7f5",
               "labels": [
                 {
-                  "position": {
-                    "distance": 0.5160238545775219,
-                    "offset": -33.343742820923055
-                  },
+                  "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "catalog page calls the\ncatalog business\ncomponent",
+                      "text": "Web Response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
                   }
                 }
               ],
-              "z": 6,
+              "z": 4,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -217,25 +153,76 @@
               }
             },
             {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 90,
+                "y": 240
+              },
+              "target": {
+                "x": 290,
+                "y": 130
+              },
+              "vertices": [
+                {
+                  "x": 160,
+                  "y": 160
+                }
+              ],
+              "id": "68b38550-353e-4ce3-a52f-ebdf8a1db58b",
+              "z": 5,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 460,
+                "y": 470
+              },
+              "angle": 0,
+              "id": "a323f73f-9795-481b-acc4-4ab94ba25862",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "c9752e29-a8f6-4a12-8249-1c1be4a51dbf"
+                "x": 300,
+                "y": 320
               },
               "target": {
-                "id": "9f128927-d207-4cb2-899e-db8b19a3d699"
+                "x": 510,
+                "y": 470
               },
-              "vertices": [],
-              "id": "ebbdbb1f-a93f-47d6-8f55-15ccf936270b",
+              "vertices": [
+                {
+                  "x": 380,
+                  "y": 390
+                }
+              ],
+              "id": "4d1e37d3-ca92-42cd-880c-8ed6a8344faa",
               "labels": [
                 {
-                  "position": {
-                    "distance": 0.5000009783892008,
-                    "offset": -30.51140681689302
-                  },
+                  "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "calls the catalog data\naccess component",
+                      "text": "Queries",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -254,107 +241,35 @@
               }
             },
             {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "a323f73f-9795-481b-acc4-4ab94ba25862"
               },
-              "position": {
-                "x": 816,
-                "y": 585
+              "target": {
+                "x": 350,
+                "y": 300
               },
-              "angle": 0,
-              "id": "a52fc4dd-e8bb-4dbb-9b89-ff7f4b46dae6",
+              "vertices": [
+                {
+                  "x": 460,
+                  "y": 350
+                }
+              ],
+              "id": "4c3ebaa6-ebcc-43ae-a7ca-2bb8b86fc0b0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Web App Query\nResults",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
               "z": 8,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Database"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "9f128927-d207-4cb2-899e-db8b19a3d699"
-              },
-              "target": {
-                "id": "a52fc4dd-e8bb-4dbb-9b89-ff7f4b46dae6"
-              },
-              "vertices": [
-                {
-                  "x": 908,
-                  "y": 377
-                }
-              ],
-              "id": "cb5e1356-2faf-4ace-87e4-62f9adde54cf",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.3077902838580058,
-                    "offset": -39.409300503945
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "request a catalog\nlisting",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "x": 861,
-                "y": 582
-              },
-              "target": {
-                "x": 417,
-                "y": 326
-              },
-              "vertices": [
-                {
-                  "x": 709,
-                  "y": 528
-                }
-              ],
-              "id": "860c71bc-853c-42fe-9a95-ee7b9c4487f8",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.45399659071837156,
-                    "offset": 49.113953073952544
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "data displayed on the\ncatalog page.",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 10,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -368,7 +283,7 @@
           ]
         },
         "size": {
-          "height": 735,
+          "height": 2370,
           "width": 5523
         }
       }
